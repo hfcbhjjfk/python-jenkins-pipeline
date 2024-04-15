@@ -7,7 +7,7 @@ WORKDIR /hello
 
 # install required libraries
 RUN pip install Flask
-RUN pip install Flask_Script
+# RUN pip install Flask_Script
 
 EXPOSE 5000
 
